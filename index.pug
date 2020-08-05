@@ -1,0 +1,97 @@
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    title= "Проект Milk"
+    link(href="style/style.css" rel='stylesheet')
+  body
+    header
+     div.header_bar
+      div.header_bar-logo
+       img(src='image/ibuy_logo.svg')
+      div.header_bar-buttons
+       button.button_item Top
+       button.button_item Painters
+       button.button_item Design
+       button.button_item Tags  
+     div.header_bar
+      div.header_bar-search
+       input(type="search", name="Search", placeholder="Search")
+      div.header_bar-menu
+       img(src='image/menu_logo.svg')
+    main
+     img(src='image/image1.svg')
+     img(src='image/image2.svg')
+     img(src='image/image3.svg')
+     img(src='image/image4.svg')
+     img(src='image/image5.svg')
+     img(src='image/image6.svg')
+     img(src='image/image7.svg')
+     img(src='image/image8.svg')
+     img(src='image/image9.svg')
+     img(src='image/image10.svg')
+     img(src='image/image1.svg')
+     img(src='image/image2.svg')
+     img(src='image/image3.svg')
+     img(src='image/image4.svg')
+     img(src='image/image5.svg')
+     img(src='image/image6.svg')
+     img(src='image/image7.svg')
+     img(src='image/image8.svg')
+     img(src='image/image9.svg')
+     img(src='image/image10.svg')
+    footer
+     div.footer_block
+      div.footer_block-item
+       img(src='image/feed.svg')
+       p Feeds
+      div.footer_block-item
+       img(src='image/gallery.svg')
+       p Gallery
+      div.footer_block-item
+       img(src='image/deats.svg')
+       p Deals
+      div.footer_block-item
+       img(src='image/notify.svg')
+       p Notify
+      div.footer_block-item
+       img(src='image/profile.svg')
+       p Profile
+    div.filter
+     div.filter_container
+      div.filter_top
+       h2 Filter
+       img.close_icon(src='image/close.svg')
+      div.filter_buttons
+       h3 Price ( $ )
+       div.filter_buttons-bar
+        button.button_item 0-200
+        button.button_item 200-400
+        button.button_item 400-600
+        button.button_item More
+      div.filter_range
+       div.filter_range-title
+        h3#range_value 0   
+        h3 - 1000000 $
+       input.filter_range-item(type="range", min="0", max="1000000", step="1", value="50000")
+      div.filter_buttons
+       h3 Shape
+       div.filter_buttons-bar
+        button.button_item Circle
+        button.button_item Square
+        button.button_item Rectangle
+        button.button_item Triangle 
+      div.filter_buttons
+       h3 Size (Width/Height)
+       div.filter_buttons-bar
+        button.button_item 0-200
+        button.button_item 200-400
+        button.button_item 400-600
+        button.button_item More
+       div.filter_buttons-bar.buttons-height
+        button.button_item 0-200
+        button.button_item 200-400
+        button.button_item 400-600
+        button.button_item More
+     div.filter_apply
+      p Apply
+    script(src="index.js")
