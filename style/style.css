@@ -269,10 +269,6 @@ footer {
   }
 }
 @media (max-width: 700px) {
-  main img {
-    width: 96px;
-    height: 96px;
-  }
 
   .header_bar {
     width: 100%;
@@ -294,6 +290,12 @@ footer {
   }
 }
 @media (max-width: 400px) {
+
+  main img {
+    width: 96px;
+    height: 96px;
+  }
+
   .header_bar-search input {
     width: 100%;
   }
