@@ -284,7 +284,6 @@ footer {
 
   .filter {
     width: 100%;
-    display: flex;
   }
   .filter_container {
     padding: 10px;
