@@ -288,6 +288,13 @@ footer {
   .filter_apply {
     width: 100%;
   }
+  .footer_block {
+    height: 60px;
+  }
+
+  .footer_block-item img {
+    width: 20px;
+  }
 }
 @media (max-width: 400px) {
 
@@ -300,13 +307,6 @@ footer {
     width: 100%;
   }
 
-  .footer_block {
-    height: 60px;
-  }
-
-  .footer_block-item img {
-    width: 20px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
